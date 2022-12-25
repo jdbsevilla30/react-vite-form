@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #d8adad;
+
+  background-image: linear-gradient(#6d74ff 3px, transparent 3px),
+    linear-gradient(to right, #6d74ff 3px, #d8adad 3px);
+  background-size: 60px 60px;
+}
+
+.form {
+  border-radius: 5px;
+  margin: 300px auto;
+  width: 30%;
+  border: 1px solid gray;
+  padding: 50px;
+  background-color: #c1e0f7;
+}
+
+input {
+  width: 90%;
+  border-radius: 10px;
+  padding: 15px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  display: block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input:last-child {
+  width: 80%;
+  margin: 50px auto 5px auto;
+  background-color: #7fcad1;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.red-outline {
+  border: 1px solid red;
+}
+
+label {
+  font-size: 25px;
+
+}
